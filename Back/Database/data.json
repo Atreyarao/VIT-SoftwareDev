@@ -1,0 +1,102 @@
+{
+    "Balls":[
+        {
+            "type":"Full toss",
+            "Modifiers":4
+        },
+        {
+            "type":"Yoker",
+            "Modifiers":3
+        },
+        {
+            "type":"Out-swinger",
+            "Modifiers":3
+        },
+        {
+            "type":"In-swinger",
+            "Modifiers":2
+        },
+        {
+            "type":"Bouncer",
+            "Modifiers":4
+        },
+        {
+            "type":"Slower Ball",
+            "Modifiers":2
+        }
+
+    ],
+    "Shots":[
+        {
+            "type":"Defend",
+            "Modifiers":5,
+            "runs":0
+        },
+        {
+            "type":"Run",
+            "Modifiers":7,
+            "runs":1
+        },
+        {
+            "type":"Run Fast",
+            "Modifiers":6,
+            "runs":2
+        },
+        {
+            "type":"Cover Drive",
+            "Modifiers":7,
+            "runs":2
+        },
+        {
+            "type":"On Drive",
+            "Modifiers":5,
+            "runs":2
+        },
+        {
+            "type":"Stright Drive",
+            "Modifiers":6,
+            "runs":2
+        },
+        {
+            "type":"Square Cut",
+            "Modifiers":7,
+            "runs":4
+        },
+        {
+            "type":"Pull",
+            "Modifiers":8,
+            "runs":4
+        },
+        {
+            "type":"Hook",
+            "Modifiers":7,
+            "runs":6
+        },
+        {
+            "type":"Helicopter",
+            "Modifiers":8,
+            "runs":6
+        }
+    ],
+    "shotPossible":[
+        {
+            "Full toss":[0,1,2,6,9]
+        },
+        {
+            "Yoker":[0,1,5,6,8]
+        },
+        {
+            "Out-swinger":[0,1,3,7,9]
+        },
+        {
+            "In-swinger":[0,1,4,7,8]
+        },
+        {
+            "Bouncer":[0,1,3,7,8]
+        },
+        {
+            "Slower Ball":[0,1,4,7,9]
+        }
+    ]
+
+}
