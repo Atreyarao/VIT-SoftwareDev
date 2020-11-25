@@ -1,5 +1,6 @@
 const express=require('express');
 const bodyParser = require("body-parser");
+const mainApi = require("./Routes/pve");
 const cors=require('cors');
 const app = express();
 
@@ -10,6 +11,8 @@ app.use(
   );
   app.use(cors());
   app.use(bodyParser.json());
+
+app.use("/api",mainApi);
 
 app.get("/",(req,res)=>{
     res.send("hello");
